@@ -1,0 +1,52 @@
+{
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "Player RTS",
+            "id": "7301e753-688a-4a17-b7ed-070e4127a287",
+            "actions": [
+                {
+                    "name": "Select Unit",
+                    "type": "Button",
+                    "id": "95c0254b-c176-4d9b-ba8e-e16f59520020",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Set Unit Destination",
+                    "type": "Button",
+                    "id": "f9eb5fa2-58f4-4f4b-a9dd-ed5421d75472",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "67c7406a-528c-4627-93fb-9ca44202f2b6",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select Unit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dcc8a266-fe4a-4a7d-8e24-91d008c1a3a7",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Set Unit Destination",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

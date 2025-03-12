@@ -1,0 +1,501 @@
+fileFormatVersion: 2
+guid: 5432d40b58e521946bb16155397144b7
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bag_Pouch_Shoe_Engineer
+    second: {fileID: 2100000, guid: 8a65abe453d3ac643a427f1b896260cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Head_Engineer
+    second: {fileID: 2100000, guid: d7147dba9df07e7409d1680713c8a5eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Uniform_Engineer
+    second: {fileID: 2100000, guid: 24168dbb55fa64645b8ab599e6556df5, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'pasted__pasted__Spine01_joint' has translation
+      animation that will be discarded.\n\t'pasted__pasted__Chest_joint' has translation
+      animation that will be discarded.\n\t'pasted__pasted__Neck_joint' has translation
+      animation that will be discarded.\n\t'pasted__pasted__Head_joint' has translation
+      animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 25
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: EngineerPelvis_joint
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__LeftLeg_joint
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__RightLeg_joint
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__LeftKnee_joint
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__RightKnee_joint
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__LeftAnkle_joint
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__RightAnkle_joint
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__Spine02_joint
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__Spine01_joint
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__Neck_joint
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__Head_joint
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__LeftCollarBone_joint
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__RightCollarBone_joint
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftShoulder_joint
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightShoulder_joint
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftElbow_joint
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightElbow_joint
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftWrist_joint
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightWrist_joint
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__LeftToe01_joint
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__RightToe01_joint
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__Chest_joint
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Engineer_IdleAnimation(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Engineer_LowPoly1
+      parentName: Engineer_IdleAnimation(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface391
+      parentName: Engineer_LowPoly1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Uniform
+      parentName: Engineer_LowPoly1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Engineer_LowPoly1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Group_Engineer
+      parentName: Engineer_IdleAnimation(Clone)
+      position: {x: 0.00660523, y: 2.0978422, z: 4.440892e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pelvis_Con_Engineer
+      parentName: Rig_Group_Engineer
+      position: {x: -0.00660523, y: 0.15029691, z: 0.19334158}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EngineerPelvis_joint
+      parentName: Rig_Group_Engineer
+      position: {x: -0.00075920665, y: 0.15029691, z: 0.19334158}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pasted__LeftLeg_joint
+      parentName: EngineerPelvis_joint
+      position: {x: -0.23001432, y: -0.16143893, z: -0.066163614}
+      rotation: {x: 0.0076536927, y: 0.05134251, z: 0.005225997, w: 0.9986381}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: pasted__pasted__LeftKnee_joint
+      parentName: pasted__pasted__LeftLeg_joint
+      position: {x: -0.15275478, y: -0.91729516, z: 0.0360619}
+      rotation: {x: 0.0000000023283064, y: 0.000000007450581, z: 0.0000000019208528, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: pasted__pasted__LeftAnkle_joint
+      parentName: pasted__pasted__LeftKnee_joint
+      position: {x: -0.10357251, y: -0.8022004, z: -0.21108402}
+      rotation: {x: -0.0076536955, y: -0.051342517, z: -0.0052259993, w: 0.9986381}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: pasted__pasted__LeftToe01_joint
+      parentName: pasted__pasted__LeftAnkle_joint
+      position: {x: -0.025274595, y: -0.3037094, z: 0.24356891}
+      rotation: {x: 4.656613e-10, y: -0, z: 3.783498e-10, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: pasted__pasted__LeftToe02_joint
+      parentName: pasted__pasted__LeftToe01_joint
+      position: {x: -0, y: 0, z: 0.18944247}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: pasted__pasted__RightLeg_joint
+      parentName: EngineerPelvis_joint
+      position: {x: 0.2300142, y: -0.16143914, z: -0.066163555}
+      rotation: {x: 0.99863815, y: -0.005225993, z: 0.051342387, w: -0.0076536746}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+    - name: pasted__pasted__RightKnee_joint
+      parentName: pasted__pasted__RightLeg_joint
+      position: {x: 0.15275475, y: 0.917295, z: -0.03606185}
+      rotation: {x: 0.0000000037252899, y: 0.000000014868418, z: -0.0000000018626449, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: pasted__pasted__RightAnkle_joint
+      parentName: pasted__pasted__RightKnee_joint
+      position: {x: 0.1035725, y: 0.8022, z: 0.2110841}
+      rotation: {x: -0.0076536783, y: -0.0513424, z: -0.0052259914, w: 0.99863815}
+      scale: {x: 1, y: 1.0000008, z: 1.0000007}
+    - name: pasted__pasted__RightToe01_joint
+      parentName: pasted__pasted__RightAnkle_joint
+      position: {x: 0.025274998, y: 0.30370975, z: -0.24356896}
+      rotation: {x: -0, y: -0, z: -1.7462297e-10, w: 1}
+      scale: {x: 1, y: 1.0000008, z: 1.0000007}
+    - name: pasted__pasted__RightToe02_joint
+      parentName: pasted__pasted__RightToe01_joint
+      position: {x: -0, y: -8.326673e-17, z: -0.18944253}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000008, z: 1.0000007}
+    - name: pasted__pasted__Spine02_joint
+      parentName: EngineerPelvis_joint
+      position: {x: 8.6736174e-19, y: 0.23187816, z: 0.029687699}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pasted__Spine01_joint
+      parentName: pasted__pasted__Spine02_joint
+      position: {x: -8.6736174e-19, y: 0.23385638, z: -0.0074226283}
+      rotation: {x: 0.08248282, y: -0, z: -0, w: 0.9965925}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pasted__Chest_joint
+      parentName: pasted__pasted__Spine01_joint
+      position: {x: -0, y: 0.2138702, z: -0.16460352}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pasted__Neck_joint
+      parentName: pasted__pasted__Chest_joint
+      position: {x: -8.6736174e-19, y: 0.39916074, z: -0.05315803}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pasted__Head_joint
+      parentName: pasted__pasted__Neck_joint
+      position: {x: -0.0014657973, y: 0.16742247, z: 0.05943764}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pasted__TopHead_joint
+      parentName: pasted__pasted__Head_joint
+      position: {x: -0.0025238988, y: 0.63786197, z: 0.052410044}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pasted__LeftCollarBone_joint
+      parentName: pasted__pasted__Chest_joint
+      position: {x: -0.24772161, y: 0.21528187, z: 0.18644328}
+      rotation: {x: 0.000000007450581, y: 0.18943818, z: -0.1289767, w: 0.973385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftShoulder_joint
+      parentName: pasted__pasted__LeftCollarBone_joint
+      position: {x: -0.32023922, y: -0.17577045, z: -0.25816765}
+      rotation: {x: 0.535909, y: 0.14741607, z: -0.14607997, w: 0.81837076}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: LeftElbow_joint
+      parentName: LeftShoulder_joint
+      position: {x: -0.274759, y: -0.3130157, z: 0.029504875}
+      rotation: {x: 0.047174383, y: -0.038863182, z: 0.083677165, w: 0.99461675}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: LeftWrist_joint
+      parentName: LeftElbow_joint
+      position: {x: -0.45409077, y: -0.33298254, z: 0.10134969}
+      rotation: {x: -0.37601247, y: -0.3332695, z: 0.06750763, w: 0.86196804}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: LeftHand_joint
+      parentName: LeftWrist_joint
+      position: {x: -0.38772294, y: -0.3413291, z: 0.03278595}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: pasted__pasted__RightCollarBone_joint
+      parentName: pasted__pasted__Chest_joint
+      position: {x: 0.23963523, y: 0.21528195, z: 0.1864433}
+      rotation: {x: -0.000000007450581, y: -0.20599109, z: 0.14024654, w: 0.9684517}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightShoulder_joint
+      parentName: pasted__pasted__RightCollarBone_joint
+      position: {x: 0.29603323, y: -0.1757705, z: -0.25816765}
+      rotation: {x: 0.5467691, y: -0.14496358, z: 0.11817247, w: 0.81612766}
+      scale: {x: 1.0000002, y: 1, z: 1.0000007}
+    - name: RightElbow_joint
+      parentName: RightShoulder_joint
+      position: {x: 0.28479147, y: -0.3130157, z: 0.029504875}
+      rotation: {x: 0.04580262, y: 0.038509604, z: -0.088549756, w: 0.99427265}
+      scale: {x: 0.99999976, y: 1, z: 1}
+    - name: RightWrist_joint
+      parentName: RightElbow_joint
+      position: {x: 0.47590142, y: -0.33298254, z: 0.10134969}
+      rotation: {x: -0.39020026, y: 0.3313672, z: -0.06712228, w: 0.8564077}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.99999976}
+    - name: RightHand_joint
+      parentName: RightWrist_joint
+      position: {x: 0.38969052, y: -0.3413291, z: 0.03278595}
+      rotation: {x: -0, y: -0, z: -0.000000014901161, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999999}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 25
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8826280093063709017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8826280093063709023}
+  - component: {fileID: 8826280093063709022}
+  m_Layer: 11
+  m_Name: GridSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 119
+  m_IsActive: 1
+--- !u!4 &8826280093063709023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8826280093063709017}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -200, y: 0, z: -200}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8826280093063709022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8826280093063709017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39011bfb3d852444fb84bd17d1db30d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridWidth: 10
+  gridHeight: 10
+  cellSize: 20
+  originPoint: {fileID: 8826280093063709023}
+  placedObjectTypeSOList:
+  - {fileID: 11400000, guid: 0e3327ab6def61948b041be5a39dae40, type: 2}
+  - {fileID: 11400000, guid: 9c8f13c548cc7b94888f2a56b3a27e72, type: 2}
+  - {fileID: 11400000, guid: cd2169eabe2671045979c0b342d06aa6, type: 2}
+  - {fileID: 11400000, guid: 50e6a6bc35d8aad4383e40605980612b, type: 2}
+  - {fileID: 11400000, guid: c3c2ed20d1ef6694d8e7c3e4a18f83f7, type: 2}
+  placedObjectTypeSO: {fileID: 0}
+  dir: 0
+  visualizationParent: {fileID: 0}
+  visualizationNodePrefab: {fileID: 5679286097092226601, guid: be2e6e4ca049d0c4f94246240c6364a4, type: 3}

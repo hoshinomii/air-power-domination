@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fde2e7fd4533ee4887bb554d0d34c00, type: 3}
+  m_Name: Solo_RTS
+  m_EditorClassIdentifier: 
+  playerRole: 0
+  unitDataList: {fileID: 11400000, guid: 22ad2d3464504074f84296ba72d968e5, type: 2}
+  playerPrefab: {fileID: 4753380515909181364, guid: 092677e9a2881c74481a1bce621751fa, type: 3}
+  displayedName: COMMANDER
+  classBannerLit: {fileID: 21300000, guid: 6c3bc4b6f625e44598bc2c6849eb9a35, type: 3}
+  classBannerUnlit: {fileID: 21300000, guid: 49e30966db36048eb9f24d2d19408a60, type: 3}
+  isNpc: 0

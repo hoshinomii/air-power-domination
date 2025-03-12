@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 004134b10d78ecd44ab812dcc3a47a7a, type: 3}
+  m_Name: RadarSAM Payload
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6536229432632189593, guid: 8a8bac309afed8644bb1d50af81e6a5f, type: 3}
+  visual: {fileID: 6536229432632189593, guid: bf64d0b15a8b9bb43aa5592c410a3589, type: 3}
+  width: 1
+  height: 1
+  nameString: SAM Site
+  buildTime: 5
+  type: 3
+  image: {fileID: 0}
